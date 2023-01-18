@@ -1,0 +1,20 @@
+#reload-button, #stop-button {
+  display: inherit !important; 
+} 
+#reload-button > .toolbarbutton-icon {
+  -moz-appearance: none !important; 
+}
+
+#statuspanel
+{
+    max-width: 100% !important;
+	width: 100% !important;
+}
+
+.downloadAlwaysOpenSimilarFilesMenuItem {
+  display: none !important;
+}
+
+.downloadAlwaysUseSystemDefaultMenuItem {
+  display: none !important;
+}
