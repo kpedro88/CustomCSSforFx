@@ -18,7 +18,8 @@
 #main-window:not([customizing="true"]) #nav-bar #personal-bookmarks {
   position: absolute !important;
   display: block !important;
-  bottom: 0px !important;
+  /*bottom: 0px !important;*/
+  margin-top: 33px !important;
   min-width: 0 !important;
   width: auto !important;
   max-width: 100vw !important;
