@@ -179,3 +179,27 @@
 #PersonalToolbar .toolbarbutton-1 {
   margin: 0px !important; 
 }
+
+#PersonalToolbar .toolbaritem-combined-buttons {
+  margin-inline: 0px !important;
+}
+
+#PersonalToolbar toolbarbutton {
+  padding: 0px !important;
+}
+
+#PersonalToolbar .toolbarbutton-1 {
+  --toolbarbutton-inner-padding: 1px !important;
+  --toolbarbutton-outer-padding: 0px !important;
+}
+
+/*	
+:is(.browserContainer,#viewSource) :is(findbar,#FindToolbar) {
+  margin-bottom: var(--addonbar_height) !important;
+}*/
+
+
+#browser,
+#customization-container {
+  margin-bottom: var(--addonbar_height) !important; 
+}
