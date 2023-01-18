@@ -119,7 +119,7 @@
 */
 
 /* default 'grey' colors */
-@import "./config/color_variables.css"; /**/
+/* @import "./config/color_variables.css"; /**/
 
 /* 'AeroBlue' colors (Win 7 Aero) */
 /* @import "./config/color_variables_aero.css"; /**/
@@ -181,12 +181,12 @@
    [!] Firefox 88 icon set uses SVG images
 */
 
-@import "./css/buttons/icons_colorized.css"; /**/
+/* @import "./css/buttons/icons_colorized.css"; /**/
 /* @import "./css/buttons/icons_white_icons.css"; /**/
 /* @import "./css/buttons/icons_custom_icons.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_fx1.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_fx2.css"; /**/
-/* @import "./css/buttons/icons_custom_icons_fx3.css"; /**/
+@import "./css/buttons/icons_custom_icons_fx3.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_fx3strata.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_fx12_colorized.css"; /**/
 /* @import "./css/buttons/icons_custom_icons_crystal.css"; /**/
@@ -222,7 +222,7 @@
    [!] good for Dark themes: buttons_on_navbar_glass_appearance.css
 */
 
-@import "./css/buttons/buttons_on_navbar_classic_appearance.css"; /**/
+/* @import "./css/buttons/buttons_on_navbar_classic_appearance.css"; /**/
 /* @import "./css/buttons/buttons_on_navbar_classic_appearance_v2.css"; /**/
 /* @import "./css/buttons/buttons_on_navbar_classic_appearance_dark.css"; /**/		
 /* @import "./css/buttons/buttons_on_navbar_aero_appearance.css"; /**/
@@ -278,7 +278,7 @@
 /* @import "./css/buttons/buttons_on_bookmarks_toolbar_classic_appearance.css"; /**/
 /* @import "./css/buttons/buttons_on_bookmarks_toolbar_classic_appearance_dark.css"; /**/
 /* @import "./css/buttons/buttons_on_bookmarks_toolbar_aero_appearance.css"; /**/
-/* @import "./css/buttons/buttons_on_bookmarks_toolbar_old_size_and_appearance.css"; /**/
+@import "./css/buttons/buttons_on_bookmarks_toolbar_old_size_and_appearance.css"; /**/
 
 
 /* ---------------------------------------------
@@ -331,7 +331,7 @@
    [!] only use one option at a time
 */
 
-/* @import "./css/buttons/unified_extensions_button_hidden.css"; /**/
+@import "./css/buttons/unified_extensions_button_hidden.css"; /**/
 /* @import "./css/buttons/unified_extensions_button_popup_icons_only.css"; /**/
 /* @import "./css/buttons/unified_extensions_button_popup_icons_only_horizontal.css"; /**/
 
@@ -357,7 +357,7 @@
 */
 
 /* @import "./css/buttons/custom_backforward_large_ff2.css"; /**/
-/* @import "./css/buttons/custom_backforward_large_ff3.css"; /**/
+@import "./css/buttons/custom_backforward_large_ff3.css"; /**/
 /* @import "./css/buttons/custom_backforward_large_ff3_strata.css"; /**/
 /* @import "./css/buttons/custom_backforward_large_ff3_strata_orange.css"; /**/
 /* @import "./css/buttons/custom_backforward_large_ff3_strata_red.css"; /**/
@@ -391,7 +391,7 @@
    [!] disable all other appbutton options when using this option
 */
 
-/* @import "./css/appbutton/appbutton_hidden.css"; /**/
+@import "./css/appbutton/appbutton_hidden.css"; /**/
 
 
 /* ----------------------------------
@@ -399,8 +399,8 @@
    ----------------------------------
 */
 
-@import "./css/appbutton/appbutton_popup_icons.css"; /**/
-@import "./css/appbutton/appbutton_popup_icons_colorized.css"; /**/
+/* @import "./css/appbutton/appbutton_popup_icons.css"; /**/
+/* @import "./css/appbutton/appbutton_popup_icons_colorized.css"; /**/
 /* @import "./css/appbutton/appbutton_popup_sync_hidden.css"; /**/
 /* @import "./css/appbutton/appbutton_popup_logins_and_passwords_hidden.css"; /**/
 
@@ -591,7 +591,7 @@
    [!] use option below for multiple tab lines support
 */
 
-/* @import "./css/tabs/tabs_below_navigation_toolbar_alt.css"; /**/
+@import "./css/tabs/tabs_below_navigation_toolbar_alt.css"; /**/
 
 /* [!] no menubar when OS titlebar is active */
 /* @import "./css/tabs/tabs_below_navigation_toolbar_alt_force_hidden_menubar.css"; /**/
@@ -691,10 +691,10 @@
    [!] only use one option at a time
 */
 
-@import "./css/tabs/tab_close_always_visible.css"; /**/
+/* @import "./css/tabs/tab_close_always_visible.css"; /**/
 /* @import "./css/tabs/tab_close_on_active_tab_only.css"; /**/
 /* @import "./css/tabs/tab_close_show_on_hover_only.css"; /**/
-/* @import "./css/tabs/tab_close_hidden.css"; /**/
+@import "./css/tabs/tab_close_hidden.css"; /**/
 /* @import "./css/tabs/tab_close_hidden_for_only_one_visible_tab.css"; /**/
 /* @import "./css/tabs/tab_close_at_tabs_start.css"; /**/
 /* @import "./css/tabs/tab_close_icon_size.css"; /**/
@@ -777,7 +777,7 @@
    [!] affects panel menus on Windows 7 and 8 and on Linux
 */
 
-/* @import "./css/generalui/popup_compact_menus.css"; /**/
+@import "./css/generalui/popup_compact_menus.css"; /**/
 /* @import "./css/generalui/popup_compact_menus_squared.css"; /**/
 /* @import "./css/generalui/popup_menus_space_before_label.css"; /**/
 /* @import "./css/generalui/popup_menus_menu_background.css"; /**/
@@ -933,13 +933,13 @@
    [!] not compatible to 'bookmarks toolbar autohide' option
 */
 
-/* @import "./css/toolbars/addonbar_move_bookmarks_toolbar_to_bottom.css"; /**/
+@import "./css/toolbars/addonbar_move_bookmarks_toolbar_to_bottom.css"; /**/
 /* @import "./css/toolbars/addonbar_move_bookmarks_toolbar_to_bottom_tabs_on_bottom_compatibility.css"; /**/
-/* @import "./css/toolbars/addonbar_status_in_addonbar.css"; /**/
+@import "./css/toolbars/addonbar_status_in_addonbar.css"; /**/
 /* @import "./css/toolbars/addonbar_fullscreen_autohide.css"; /**/
 
 /* [!] create additional toolbar for 'bookmarks toolbar items' on navigation toolbar */
-/* @import "./css/toolbars/addonbar_extra_bookmarks_toolbar_below_navbar.css"; /**/
+@import "./css/toolbars/addonbar_extra_bookmarks_toolbar_below_navbar.css"; /**/
 
 
 /* ------------------------
@@ -1110,7 +1110,7 @@
    -----------------------------------
 */
 
-/* @import "./css/locationbar/identitybox_colors.css"; /**/
+@import "./css/locationbar/identitybox_colors.css"; /**/
 /* @import "./css/locationbar/identitybox_labels_hidden.css"; /**/
 /* @import "./css/locationbar/identitybox_replace_search_icon_with_globe.css"; /**/
 
